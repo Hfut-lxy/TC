@@ -1,0 +1,6 @@
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+users=$(cat ./teams)
+HomeDir=/robocup3D
+GROUP=robocup3d
+export PATH users HomeDir GROUP
+
